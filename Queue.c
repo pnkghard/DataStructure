@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-struct Queue {
+
+
+struct Queue { // structure class for queue with array size of 5
     int arr[5];
     int front, rear;
 } queue;
